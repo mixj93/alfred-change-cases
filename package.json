@@ -1,0 +1,43 @@
+{
+  "name": "alfred-change-cases",
+  "version": "0.0.0",
+  "description": "Change Cases Workflow For Alfred",
+  "license": "MIT",
+  "repository": "mixj93/alfred-change-cases",
+  "author": {
+    "name": "Li Xueli",
+    "email": "lixueli93@gmail.com",
+    "url": "https://xueli.li"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.10.0",
+    "change-case": "^4.1.1",
+    "lower-case": "^2.0.1",
+    "upper-case": "^2.0.1",
+    "upper-case-first": "^2.0.1"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.4.0",
+    "ava": "^0.18.0",
+    "prettier": "2.1.1",
+    "xo": "^0.17.0"
+  }
+}
